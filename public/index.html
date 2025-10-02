@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Geofence Visualization</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <h2>Geofence Visualization</h2>
+  <div id="map" style="height: 600px;"></div> <!-- keep only map -->
+  <p id="status"></p>
+
+  <!-- Leaflet -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Turf.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/map.js"></script>
+</body>
+</html>
